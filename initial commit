@@ -29,8 +29,9 @@ void draw(){
   fill(255,215,0);
   rect(0.15*width, height/2.5,j,j);
   rect(0.35*width, height/2.5,j,j);
-//rect(0.13*width, height/1.7,j,j);
-//rect(0.37*width, height/1.7,j,j);
+  fill(30);
+  rect(0.13*width, height/1.7,j,j);
+  rect(0.37*width, height/1.7,j,j);
 
 //Left window frame
   line(75,175,75,225);
